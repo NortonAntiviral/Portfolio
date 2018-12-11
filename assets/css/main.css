@@ -118,9 +118,14 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: darkslategray !important;
 			text-decoration: none;
 		}
+
+	.info {
+		color: darkslategray !important;
+		font-weight: bold;
+	}
 
 	strong, b {
 		color: #787878;
@@ -2458,8 +2463,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: darkslategray;
+			color: darkslategray !important;
 		}
 
 		input[type="submit"]:active,
