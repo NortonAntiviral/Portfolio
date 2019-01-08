@@ -2029,7 +2029,7 @@ input, select, textarea {
 			transition: width .3s
 		}
 
-		.icon :hover:: after{
+		.icon :hover:: after {
 			color: firebrick;
 			width: 100%;
 			transition: width .3s;
