@@ -84,7 +84,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #000;
+		background: #1b1c21;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2373,13 +2373,13 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #efefef;
+			border: solid 1px whitesmoke;
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color: #1b1c21;
 			}
 
 		table td {
