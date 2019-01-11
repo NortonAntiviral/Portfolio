@@ -84,7 +84,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -99,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: whitesmoke;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -112,23 +112,23 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: gold;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: darkslategray !important;
+			color: whitesmoke !important;
 			text-decoration: none;
 		}
 
 	.info {
-		color: darkslategray !important;
+		color: gold !important;
 		font-weight: bold;
 	}
 
 	strong, b {
-		color: #787878;
+		color: whitesmoke;
 		font-weight: 400;
 	}
 
@@ -141,7 +141,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: whitesmoke;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2463,8 +2463,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: darkslategray;
-			color: darkslategray !important;
+			border-color: gold;
+			color: gold !important;
 		}
 
 		input[type="submit"]:active,
@@ -2472,8 +2472,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: gold;
+			color: gold !important;
 		}
 
 		input[type="submit"].icon,
@@ -2771,7 +2771,7 @@ input, select, textarea {
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
 		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-		background: #fff;
+		background: #000;
 		border-radius: 0.35em;
 		box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
 		overflow: hidden;
@@ -2808,7 +2808,7 @@ input, select, textarea {
 			}
 
 		.poptrox-popup .caption {
-			background: #fff;
+			background: #000;
 			bottom: 0;
 			cursor: default;
 			font-size: 0.9em;
@@ -2850,7 +2850,7 @@ input, select, textarea {
 
 			.poptrox-popup .nav-next:before,
 			.poptrox-popup .nav-previous:before {
-				color: #fff;
+				color: #000;
 				font-size: 2.5em;
 				height: 1em;
 				line-height: 1em;
@@ -2886,7 +2886,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-			color: #fff;
+			color: #000;
 			height: 4em;
 			line-height: 4em;
 			opacity: 0;
