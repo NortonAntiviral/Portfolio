@@ -99,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: whitesmoke;
+		color: lightgoldenrodyellow;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -112,23 +112,23 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: gold;
+		color: lightgoldenrodyellow;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: whitesmoke !important;
+			color: goldenrod !important;
 			text-decoration: none;
 		}
 
 	.info {
-		color: gold !important;
+		color: goldenrod !important;
 		font-weight: bold;
 	}
 
 	strong, b {
-		color: whitesmoke;
+		color: lightgoldenrodyellow;
 		font-weight: 400;
 	}
 
@@ -141,7 +141,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: whitesmoke;
+		color: lightgoldenrodyellow;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -196,7 +196,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #efefef;
+		border-bottom: solid 2px lightgoldenrodyellow;
 		margin: 2em 0;
 	}
 
@@ -205,16 +205,16 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 6px #efefef;
+		border-left: solid 6px lightgoldenrodyellow;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 1.5em;
 	}
 
 	code {
-		background: #f7f7f7;
+		background: lightgoldenrodyellow;
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border: solid 2px lightgoldenrodyellow;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -1847,7 +1847,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: goldenrod;
 		}
 
 	select {
@@ -1861,8 +1861,8 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #787878;
-			background: #fff;
+			color: lightgoldenrodyellow;
+			background: lightslategray;
 		}
 
 		select:focus::-ms-value {
@@ -1941,13 +1941,13 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #787878;
 			border-color: #787878;
-			color: #fff;
+			color: lightgoldenrodyellow;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: goldenrod;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -1982,7 +1982,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border: solid 2px lightgoldenrodyellow;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -2025,12 +2025,12 @@ input, select, textarea {
 			display: block;
 			width: 0;
 			height: 2px;
-			background: #fff;
+			background: lightgoldenrodyellow;
 			transition: width .3s
 		}
 
-		.icon :hover:: after {
-			color: firebrick;
+		.icon :hover::after {
+			color: goldenrod;
 			width: 100%;
 			transition: width .3s;
 		}
@@ -2071,7 +2071,7 @@ input, select, textarea {
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
-				color: #fff;
+				color: lightgoldenrodyellow;
 				content: 'View';
 				display: inline-block;
 				font-size: 0.8em;
@@ -2144,6 +2144,9 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 100%;
 			}
+		.logo {
+			width:80%;
+		}
 
 /* List */
 
@@ -2173,7 +2176,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 2px #efefef;
+				border-top: solid 2px lightgoldenrodyellow;
 				padding: 0.5em 0;
 			}
 
@@ -2230,7 +2233,7 @@ input, select, textarea {
 			}
 
 			ul.labeled-icons li h3 {
-				color: #b2b2b2;
+				color: lightgoldenrodyellow;
 				left: 0;
 				position: absolute;
 				text-align: center;
@@ -2373,7 +2376,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px whitesmoke;
+			border: solid 1px lightgoldenrodyellow;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -2395,11 +2398,11 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px #efefef;
+			border-bottom: solid 2px lightgoldenrodyellow;
 		}
 
 		table tfoot {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px lightgoldenrodyellow;
 		}
 
 		table.alt {
@@ -2407,7 +2410,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 2px #efefef;
+				border: solid 2px lightgoldenrodyellow;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2444,8 +2447,8 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
-		color: #787878 !important;
+		border: solid 3px lightgoldenrodyellow;
+		color: lightgoldenrodyellow !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2463,8 +2466,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: gold;
-			color: gold !important;
+			border-color: goldenrod;
+			color: goldenrod !important;
 		}
 
 		input[type="submit"]:active,
@@ -2472,8 +2475,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: gold;
-			color: gold !important;
+			border-color: lightgoldenrodyellow;
+			color: lightgoldenrodyellow !important;
 		}
 
 		input[type="submit"].icon,
@@ -2516,9 +2519,9 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
-			color: #ffffff !important;
+			background-color: goldenrod;
+			border-color: goldenrod;
+			color: lightgoldenrodyellowfff !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2592,7 +2595,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/bg-4.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2623,11 +2626,11 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: lightgoldenrodyellowfff;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: lightgoldenrodyellowfff;
 		}
 
 		#header h1 {
@@ -2649,7 +2652,7 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: lightgoldenrodyellow;
 		}
 
 	#footer .copyright {
@@ -2688,7 +2691,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px lightgoldenrodyellow;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
@@ -3065,7 +3068,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image: url("images/overlay.png"), url("../../images/bg-2.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
