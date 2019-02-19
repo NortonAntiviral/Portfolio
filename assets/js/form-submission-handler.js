@@ -53,7 +53,7 @@
     // add form-specific values into the data
     formData.formDataNameOrder = JSON.stringify(fields);
     formData.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
-    formData.formGoogleSendEmail = form.dataset.email || "OfficialAntiviral@gmail.com"; // no email by default
+    formData.formGoogleSendEmail = form.dataset.email || "OfficialAntiviral@gmail.com"; 
 
     console.log(formData);
     return formData;
@@ -64,11 +64,11 @@
     var form = event.target;
     var data = getFormData(form);         // get the values submitted in the form
 
-    /* OPTION: Remove this comment to enable SPAM prevention, see README.md
+    /* OPTION: Remove this comment to enable SPAM prevention, see README.md*/
     if (validateHuman(data.honeypot)) {  //if form is filled, form will not be submitted
       return false;
     }
-    */
+    
 
     if( data.email && !validEmail(data.email) ) {   // if email is not valid show error
       var invalidEmail = form.querySelector(".email-invalid");
