@@ -2434,6 +2434,10 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+			#skills {
+				margin: 0 0em 0em 10em ;
+			}
+
 /* Button */
 
 	input[type="submit"],
