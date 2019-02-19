@@ -1,0 +1,30 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "font-awesome": "^4.7.0",
+    "react": "^16.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OfficialAntiviral/My2Cents.git"
+  },
+  "keywords": [
+    "M2C",
+    "Mytwocents",
+    "My2cents"
+  ],
+  "author": "Norton Antiviral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OfficialAntiviral/My2Cents/issues"
+  },
+  "homepage": "https://github.com/OfficialAntiviral/My2Cents#readme"
+}

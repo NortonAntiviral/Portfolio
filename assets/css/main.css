@@ -1808,7 +1808,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #787878;
+		color: darkslategrey;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 400;
@@ -1824,7 +1824,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
+		background: azure;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -1833,6 +1833,7 @@ input, select, textarea {
 		padding: 0 0.75em;
 		text-decoration: none;
 		width: 100%;
+		color:black;
 	}
 
 		input[type="text"]:invalid,

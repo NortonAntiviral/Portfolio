@@ -1,0 +1,111 @@
+body {
+  position: relative;
+  background: black;
+  height: 100%;
+}
+
+.top, .background {
+  margin:0%;
+  padding: 0%;
+}
+
+.numbers {
+  /* color: goldenrod; */
+}
+
+.middle{
+  background: black;
+  padding: 2% 2% 1% 2%;
+  height: 85vh !important;
+
+}
+
+.footer,.links, .bottom > footer {
+  background: rgb(60, 60, 60);
+  padding: 0.52% 1% 0.52% 1%;
+  margin:auto;
+  color: #000;
+}
+footer{
+  margin:0;
+  padding:0;
+}
+
+.welcome {
+  margin-left: 15%;
+}
+
+.listItem{
+  padding: 7.5% 18%  7.5% 18%;
+  /* margin: 1% 0 5% 0; */
+}
+
+ul {
+  margin: 5%;
+}
+
+.is-horizontal, #start{
+  padding: 1.5% 0 1.5% 0;
+}
+
+.footer > div > p > a,.numbers {
+  padding: 0 1.8% 0 1.8%;
+  margin-top:none;
+  margin-bottom: none;
+  padding-top: none;
+  padding-bottom: none;
+}
+
+/* .footer > div > p > a:hover {
+  color:black;
+} */
+
+.bottom {
+  height: 100%;
+  margin: 0px;
+  background: rgb(60, 60, 60);
+}
+
+.yellow {
+  /* color: hsl(43, 74%, 60%); */
+  text-decoration-color: black;
+  border-color: black;
+}
+
+.is-yellow{
+  background-color: hsl(43, 74%, 60%);
+  color:black;
+  border-color: black;
+}
+
+.links:hover{
+  color:hsl(55, 67%, 70%);
+  /* color:#ff0537 */
+}
+
+.search {
+  padding-top: 12px;
+}
+
+.is-searchbtn:hover{
+  color:hsl(55, 67%, 70%);
+}
+ .is-login:hover {
+   background-color:rgba(32, 32, 30, 0.89) !important;
+ }
+
+ .logIn {
+   background: rgb(60, 60, 60);!important;
+ }
+
+ .modal-card {
+  text-align:  center;
+ }
+
+ p,.listItem {
+   color: #000 !important;
+ }
+
+ #forgotBtn {
+   color: whitesmoke;
+ }

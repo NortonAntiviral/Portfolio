@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My2C</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="HomePage.css">
+    <link rel="stylesheet" href="node_modules/components-font-awesome/css/fontawesome-all.min.css">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+
+  </head>
+
+  <div class="modal" id="popUp">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head ">
+            <p class="modal-card-title"><strong>Login</strong></p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+      <!-- Any other Bulma elements you want -->
+        
+            <div class="field is-horizontal">
+              <div class="field-body">
+            <div class="field is-expanded">
+              <label class="label">Username</label>
+              <p class="control is-expanded has-icons-left has-icons-right ">
+                <input class="input is-large is-rounded" type="email" placeholder="Username" required>
+                <span class="icon is-medium is-left">
+        <i class="fas fa-envelope"></i>
+      </span>
+      <span class="icon is-medium is-right">
+        <i class="fas fa-check"></i>
+      </span>
+            </p>
+            <p class="help">Enter Username or email</p>
+            </div>
+                  <div class="field">
+                    <label class="label">Password</label>
+                <input class="input is-large is-rounded" type="password" placeholder="Password" required>
+                <p class="help">Must be at least 8 characters</p>
+            </div>
+            </div>
+            </div>
+          </section>
+          <footer class="modal-card-foot">
+            <a class="button is-black is-rounded is-login" href="/Portfolio/index.html">Log In</a>
+            <a class="button is-danger" id="forgotBtn" href="#">Forgot Password</a>
+          </footer>
+        </div>
+      
+    </div>
+  </div>
+
+  <body>
+
+    <div class="top">
+      <nav class="navbar is-mobile is-dark level" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/Portfolio/index.html">
+        <img src="coin.gif" width="50" height="60">
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="/Portfolio/index.html">
+          Home
+        </a>
+
+        <a class="navbar-item">
+          Documentation
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              About
+            </a>
+            <a class="navbar-item">
+              Jobs
+            </a>
+            <a class="navbar-item">
+              Contact
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Report an issue
+            </a>
+          </div>
+        </div>
+
+
+  </div>
+
+  <div class="field has-addons search">
+<div class="control">
+<input class="input is-large is-rounded" type="text" placeholder="Keyword">
+</div>
+<div class="control">
+<a class="button is-warning is-large is-rounded hover is-searchbtn" id="search">
+Search
+</a>
+</div>
+</div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-large is-warning is-rounded" href="/Portfolio/index.html" id='signUp'>
+              <strong>Sign up</strong>
+            </a>
+            <a class="button is-large is-black is-rounded is-login " id="login" >
+              Log In
+            </a>
+          </div>
+        </div>
+        <a class="navbar-item" href="/Portfolio/index.html">
+          <img src="coin.gif" width="50" height="60">
+        </a>
+      </div>
+    </div>
+  </nav>
+  </div>
+
+    <div class="middle columns is-mobile tile is-ancestor">
+        <div class="tile column is-parent ">
+            <article class="tile is-vertical is-child notification is-warning">
+            <p class="title is-centered is-1 is-spaced is-large welcome">Welcome to My 2Cents!</p>
+            <ul class="subtitle is-large is-1 is-spaced">
+              <li class="listItem"><i class="fas fa-wifi fa-1x"></i> <i>Stay Connected</i></li>
+              <li class="listItem"><i class="fas fa-play-circle fa-1x"></i> <i>Express Yourself</i></li>
+              <li class="listItem"><i class="fas fa-users fa-1x"></i> <i>Community First</i></li>
+            </ul>
+          </article>
+        </div>
+  <div class="tile column is-parent">
+    <article class="tile is-child box">
+      <p class="title is-large is-spaced is-1" id="start"><b>Getting Started</b></p>
+
+      <div class="field is-horizontal">
+        <div class="field-body">
+      <div class="field is-expanded">
+        <label class="label">Username</label>
+        <p class="control is-expanded has-icons-left has-icons-right ">
+          <input class="input is-large is-rounded" type="email" placeholder="Username" required>
+          <span class="icon is-medium is-left">
+  <i class="fas fa-envelope"></i>
+</span>
+<span class="icon is-medium is-right">
+  <i class="fas fa-check"></i>
+</span>
+      </p>
+      <p class="help">Enter Username or email</p>
+      </div>
+            <div class="field">
+              <label class="label">Password</label>
+          <input class="input is-large is-rounded" type="password" placeholder="Password" required>
+          <p class="help">Must be at least 8 characters</p>
+      </div>
+      </div>
+      </div>
+
+      <div class="field is-horizontal">
+  <div class="field-body">
+    <div class="field has-icons-left has-icons-right">
+      <label class="label">First Name</label>
+      <p class="control is-expanded has-icons-left has-icons-right">
+        <input class="input is-large is-rounded" type="text" placeholder="First Name" required>
+        <span class="icon is-small is-left">
+          <i class="fas fa-user"></i>
+        </span>
+      </p>
+    </div>
+    <div class="field">
+      <label class="label">Last Name</label>
+      <p class="control is-expanded has-icons-left has-icons-right">
+        <input class="input is-large is-rounded" type="text" placeholder="Last Name" required>
+        <span class="icon is-small is-left">
+          <i class="fas fa-user"></i>
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="field is-horizontal">
+<div class="field-body">
+<div class="field">
+  <label class="label">Gender</label>
+  <div class="control">
+    <div class="select is-rounded is-large is-rounded">
+      <select>
+        <option>Select dropdown</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+    </div>
+  </div>
+</div>
+        <div class="field">
+          <label class="label">Phone Number</label>
+  <div class="field has-addons">
+        <p class="control">
+          <a class="button is-static is-large is-rounded">
+            (###-###-####)
+          </a>
+        </p>
+        <p class="control is-expanded">
+          <input class="input is-large is-rounded" type="tel" placeholder="Your phone number">
+        </p>
+      </div>
+      <p class="help">*Optional</p>
+    </div>
+  </div>
+  </div>
+</div>
+
+    </article>
+  </div>
+</div>
+</div>
+
+    </div>
+
+    <div class="bottom">
+
+      <footer class="footer">
+  <div class="content has-text-centered">
+    <p class="">
+      <a href="https://www.facebook.com/"><i class="fab fa-facebook-f fa-2x links yellow"></i></a>
+      <a href="https://www.LinkedIN.com/"><i class="fab fa-linkedin-in fa-2x links yellow"></i></a>
+      <a href="https://www.Twitter.com/"><i class="fab fa-twitter fa-2x links yellow"></i></a>
+      <a href="https://www.Github.com/"><i class="fab fa-github fa-2x links yellow"></i></a>
+    </p>
+  </div>
+</footer>
+    </div>
+    
+    <script type="text/javascript" src="HomePage.js">
+
+    </script>
+
+  </body>
+
+  <!-- <script type="text/javascript" src="node_modules\react\index.js"> -->
+
+  <!-- </script> -->
+</html>
