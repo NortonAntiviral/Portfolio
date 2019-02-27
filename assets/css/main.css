@@ -2641,8 +2641,9 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
-			font-size: 1.35em;
+			/* color: rgba(255, 255, 255, 0.692); */
+			color:tan;
+			font-size: 1.5em;
 			line-height: 1.75em;
 			margin: 0;
 		}
